@@ -1,5 +1,6 @@
 <?php
-$heading = "Index";
 
+view('index.view.php',[
+    'heading' => "Index Page",
+]);
 
-require_once('./views/index.view.php');
